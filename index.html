@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Siddesh - Web Developer</title>
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <nav>
+            <div class="logo">Siddesh</div>
+            <button class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="theme-toggle-container">
+                    <button id="theme-toggle" class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="greeting">Hello, I'm</div>
+                <h1 class="scroll-animate name-highlight">Siddesh</h1>
+                <div class="typing-container">
+                    <p class="scroll-animate typing-text">I'm a <span class="typed-text"></span><span class="cursor-blink">|</span></p>
+                </div>
+                <p class="scroll-animate hero-description">Passionate Web Developer crafting beautiful and functional digital experiences</p>
+                <div class="hero-buttons scroll-animate">
+                    <a href="Untitled.pdf" class="btn" target="_blank">View My CV</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image scroll-animate">
+                <div class="floating-shapes">
+                    <div class="shape shape1"></div>
+                    <div class="shape shape2"></div>
+                    <div class="shape shape3"></div>
+                    <div class="shape shape4"></div>
+                </div>
+                <!-- <div class="profile-image">
+                    <img src="Screenshot_2025-04-15-14-54-38-504_com.google.android.apps.photos.jpg" alt="Siddesh - Web Developer">
+                </div> -->
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title scroll-animate">About Me</h2>
+        <div class="about-content">
+            <p class="scroll-animate">Hello! I'm Siddesh, a passionate web developer with a keen eye for design and a love for creating seamless user experiences. I specialize in front-end development and enjoy bringing creative designs to life.</p>
+            <p class="scroll-animate">My skills include:</p>
+            <ul class="scroll-animate skills-list">
+                <li><i class="fab fa-html5"></i> HTML5 & CSS3</li>
+                <li><i class="fab fa-js"></i> JavaScript</li>
+                <li><i class="fas fa-mobile-alt"></i> Responsive Design</li>
+                <li><i class="fas fa-paint-brush"></i> UI/UX Design</li>
+                <li><i class="fab fa-react"></i> React.js</li>
+                <li><i class="fab fa-node-js"></i> Node.js</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title scroll-animate">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="how-many-planets-in-our-solar-system.jpg" alt="Project 1" class="project-image">
+                <div class="project-info">
+                    <h3>Project 1</h3>
+                    <p>A futuristic website about Space travel and its details.</p>
+                    <a href="https://mayurbariii.github.io/SpaceStalkers/" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="edu-solar-system-large.webp" alt="Project 2" class="project-image">
+                <div class="project-info">
+                    <h3>Project 2</h3>
+                    <p>A website to show Exoplanets and their details.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="1625467549995-2021_bmw_m3_98_1600x1200.jpg" alt="Project 3" class="project-image">
+                <div class="project-info">
+                    <h3>Project 3</h3>
+                    <p>A creative design Landing page of BMW M series.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title scroll-animate">Contact Me</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Sidd123455/Siddesh.git" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/siddesh-s12?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/SiddeshSapate?t=EZ4Ho7IHz_5kDVrsYYl2AA&s=09" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/invites/contact/?i=hwiaoeu0hzw9&utm_content=kg2zgzn" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 Siddesh. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
